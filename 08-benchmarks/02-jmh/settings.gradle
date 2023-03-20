@@ -1,0 +1,10 @@
+
+pluginManagement {
+  plugins {
+        id "org.jetbrains.kotlin.jvm" version "1.8.10"
+        id "me.champeau.jmh" version "0.6.8"
+    }
+}
+
+rootProject.name = "jmh"
+include("jmh01")
