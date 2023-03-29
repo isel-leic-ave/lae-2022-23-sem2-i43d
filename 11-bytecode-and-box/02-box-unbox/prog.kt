@@ -1,3 +1,6 @@
+// Non-nullable Int becomes a Java int
+// Nullable Int becomes a Java Integer
+
 fun sum(a : Int, b : Int?) : Int = (a + (b ?: 0))
 
 fun xsum(a : Int, b : Int?) : Int? =
