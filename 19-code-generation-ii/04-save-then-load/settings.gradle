@@ -1,0 +1,16 @@
+
+pluginManagement {
+  plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.8.10"
+  }
+}
+
+dependencyResolutionManagement {
+  versionCatalogs {
+    libs {
+      library('cojen-maker', 'org.cojen:cojen-maker:2.4.7')
+		}
+	}
+}
+
+include("codegen")
